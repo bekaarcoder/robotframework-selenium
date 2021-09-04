@@ -1,0 +1,20 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT Excel                                                              
+==============================================================================
+Login test with excel using admin@yourstore.com                       | PASS |
+------------------------------------------------------------------------------
+Login test with excel using adm@yourstore.com admin                   | PASS |
+------------------------------------------------------------------------------
+Login test with excel using admin@yourstore.com adm                   | PASS |
+------------------------------------------------------------------------------
+Login test with excel using adm@yourstore.com adm                     | PASS |
+------------------------------------------------------------------------------
+Suites.DDT Excel                                                      | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\shash\Documents\Projects\PyCharmProjects\RobotFrameworkSelenium\Results\pabot_results\1\output.xml

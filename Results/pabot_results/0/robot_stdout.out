@@ -1,0 +1,20 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DDT CSV                                                                
+==============================================================================
+Login test with CSV using admin@yourstore.com                         | PASS |
+------------------------------------------------------------------------------
+Login test with CSV using adm@yourstore.com admin                     | PASS |
+------------------------------------------------------------------------------
+Login test with CSV using admin@yourstore.com adm                     | PASS |
+------------------------------------------------------------------------------
+Login test with CSV using adm@yourstore.com adm                       | PASS |
+------------------------------------------------------------------------------
+Suites.DDT CSV                                                        | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\shash\Documents\Projects\PyCharmProjects\RobotFrameworkSelenium\Results\pabot_results\0\output.xml

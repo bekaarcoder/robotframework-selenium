@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.8.8 on win32)" generated="20210904 17:11:37.528" rpa="false" schemaversion="2">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="RemoteTestFF" source="C:\Users\shash\Documents\Projects\PyCharmProjects\RobotFrameworkSelenium\Parallel\RemoteTestFF.robot">
+<test id="s1-s1-t1" name="LoginTest">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${desired_caps}</var>
+<arg>browserName=firefox</arg>
+<arg>marionette=${true}</arg>
+<arg>acceptInsecureCerts=${true}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20210904 17:11:38.089" level="INFO">${desired_caps} = {'browserName': 'firefox', 'marionette': True, 'acceptInsecureCerts': True}</msg>
+<status status="PASS" starttime="20210904 17:11:38.087" endtime="20210904 17:11:38.089"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<arg>remote_url=${remote_url}</arg>
+<arg>desired_capabilities=${desired_caps}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210904 17:11:38.091" level="INFO">Opening browser 'firefox' to base url 'https://admin-demo.nopcommerce.com/' through remote server at 'http://localhost:4444/wd/hub'.</msg>
+<status status="PASS" starttime="20210904 17:11:38.090" endtime="20210904 17:11:52.113"/>
+</kw>
+<kw name="Login To Application">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Email</arg>
+<arg>admin@yourstore.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210904 17:11:52.117" level="INFO">Typing text 'admin@yourstore.com' into text field 'id:Email'.</msg>
+<status status="PASS" starttime="20210904 17:11:52.116" endtime="20210904 17:11:52.293"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210904 17:11:52.295" level="INFO">Typing text 'admin' into text field 'id:Password'.</msg>
+<status status="PASS" starttime="20210904 17:11:52.293" endtime="20210904 17:11:52.392"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://button[text()='Log in']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20210904 17:11:52.394" level="INFO">Clicking button 'xpath://button[text()='Log in']'.</msg>
+<status status="PASS" starttime="20210904 17:11:52.392" endtime="20210904 17:11:56.562"/>
+</kw>
+<status status="PASS" starttime="20210904 17:11:52.114" endtime="20210904 17:11:56.562"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210904 17:11:56.562" endtime="20210904 17:11:57.313"/>
+</kw>
+<status status="PASS" starttime="20210904 17:11:38.085" endtime="20210904 17:11:57.316"/>
+</test>
+<status status="PASS" starttime="20210904 17:11:37.571" endtime="20210904 17:11:57.322"/>
+</suite>
+<status status="PASS" starttime="20210904 17:11:37.543" endtime="20210904 17:11:57.333"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="RemoteTestFF">Suites.RemoteTestFF</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

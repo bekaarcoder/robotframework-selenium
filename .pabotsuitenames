@@ -1,0 +1,6 @@
+datasources:665e9fd81863a9b6861f14c095b12632aaa1f0a1
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:e6d6ea8c94ec739b0607a8f832be9b7b4e1e148a
+--suite Suites.RemoteTest
+--suite Suites.RemoteTestFF

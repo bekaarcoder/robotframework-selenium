@@ -1,0 +1,5 @@
+${username};${password};
+admin@yourstore.com;;
+adm@yourstore.com;admin;
+admin@yourstore.com;adm;
+adm@yourstore.com;adm;
